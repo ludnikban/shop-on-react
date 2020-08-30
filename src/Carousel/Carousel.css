@@ -1,0 +1,120 @@
+.page-header__navbar {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.page-header__carousel {
+    margin-right: 0;
+    margin-left: 0;
+
+    border-bottom: 1px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.page-header__navbar-search {
+    height: 50px;
+
+    border: 1px solid #2c71b6;
+
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+.page-header__navbar-search .form-control {
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+    font-size: 1.2rem;
+}
+
+.page-header__navbar-search button {
+    margin: 5px;
+    padding: 0;
+
+    color: #ffffff;
+    border-color: #2c71b6;
+    background-color: #2c71b6;
+}
+
+.page-header__navbar-search button:hover {
+    color: #2c71b6;
+    background-color: #ffffff;
+}
+
+.page-header__navbar-search i {
+    display: block;
+
+    padding: 10px;
+}
+
+.page-header__cart-btn {
+    position: relative;
+
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+
+    color: #2c71b6;
+    border: none;
+    border-radius: 0;
+    background-color: #ffffff;
+}
+
+.page-header__cart-btn:hover span {
+    color: #2c71b6;
+    background-color: #ffffff;
+}
+
+.page-header__cart-btn span {
+    position: absolute;
+    top: -12px;
+    left: -12px;
+
+    width: 24px;
+    height: 24px;
+
+    -webkit-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+
+    color: #ffffff;
+    border-radius: 12px;
+    background-color: #2c71b6;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+}
+
+.page-header__cart-counter {
+    display: none;
+}
+.fa-shopping-cart {
+    font-size: 1.5rem;
+}
+.navbar {
+    margin-right: -15px;
+    margin-left: -15px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    white-space: nowrap;
+
+    color: #2c71b6;
+
+    font-size: 1.2rem;
+}
+
+.btn-outline-success {
+    color: #2c71b6;
+    border-color: #2c71b6;
+    border-radius: 0;
+}
+
+.btn-outline-success:hover {
+    color: #ffffff;
+    border-color: #2c71b6;
+    background-color: #2c71b6;
+}
